@@ -73,7 +73,7 @@ export default function publication() {
         {
           title:" Computer vision based online monitoring technique: part quality enhancement in the selective laser melting process",
           author:"Brahmansh Kaushik, S Anand Kumar",
-          Publication:'Elsevier',
+          Publication:'Advances in Additive Manufacturing',
           impactFactor:'',
           link:'https://www.sciencedirect.com/science/article/abs/pii/B9780323918343000077', 
         }, 
