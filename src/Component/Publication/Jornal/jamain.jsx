@@ -50,6 +50,14 @@ export default function publication() {
     {
       year:"2023",
       detail:[
+        
+        {
+          title:"Influence of post-heat treatment with super β transus temperature on the tensile behaviour of LPBF processed Ti6Al4V",
+          author:"Akshay Pathania, S Anand Kumar, BK Nagesha",
+          Publication:"Proceedings of the Institution of Mechanical Engineers, Part E: Journal of Process Mechanical Engineering",
+          impactFactor:'2.4',
+          link:'https://journals.sagepub.com/doi/full/10.1177/09544089231209808',
+        },
         {
           title:"Skin-Core Scanning Strategy in LPBF Processed Ti6Al4V: Effects on Microstructure and Microhardness",
           author:"Akshay Pathania, Anand Kumar Subramaniyan, Nagesha Bommanahalli Kenchappa",

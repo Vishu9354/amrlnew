@@ -9,13 +9,7 @@ export default function publication() {
     {
       year:"2023",
       detail:[
-        {
-          title:"Influence of post-heat treatment with super β transus temperature on the tensile behaviour of LPBF processed Ti6Al4V",
-          author:"Akshay Pathania, S Anand Kumar, BK Nagesha",
-          Publication:"SAGE Publications",
-          impactFactor:'2.4',
-          link:'https://journals.sagepub.com/doi/full/10.1177/09544089231209808',
-        },
+       
         {
           title:"Surface Texture and Microstructural Characterization of Thin-Walled Ti6Al4V Part Processed Using Laser Powder Bed Fusion Technique: Effect of Build Direction",
           author:"S Anand Kumar, Ajay Kushwaha, Abhishek Shrivastava, BK Nagesha, Sanjay Barad",

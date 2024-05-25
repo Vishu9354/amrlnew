@@ -59,7 +59,7 @@ export default function publication() {
         {
           title:"Bio-inspired advancements in additive manufacturing",
           author:"Ruban Whenish, Selvam Arivazhagan, Rajkumar Velu, S Anand Kumar",
-          Publication:'Advances in Additive Manufacturing',,
+          Publication:'Advances in Additive Manufacturing',
           link:'https://www.sciencedirect.com/science/article/abs/pii/B9780323918343000089', 
         },
         {
@@ -87,9 +87,6 @@ export default function publication() {
           impactFactor:'',
           link:'', 
         },    
-
-         
-
       ]
 
     }
