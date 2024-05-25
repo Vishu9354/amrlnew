@@ -1,0 +1,33 @@
+.box{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: relative;
+    object-fit:fill;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    transition: ease 1s;
+}
+.img img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.Content{
+    text-align: center;
+    /* width: 400px; */
+    margin-top: 25px;
+    /* padding: 25px; */
+}

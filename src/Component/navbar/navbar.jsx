@@ -50,7 +50,7 @@ export default function navbar() {
           Collaboration
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">National</a></li>
+            <li><Link class="dropdown-item" to="/Collaboration">National</Link></li>
             <li><a class="dropdown-item" href="#">International</a></li>
           </ul>
         </li>

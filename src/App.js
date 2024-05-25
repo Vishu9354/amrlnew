@@ -8,6 +8,7 @@ import Papublication from './Component/Publication/Paper/pamain.jsx';
 import Prpublication from './Component/Publication/Paper/prmain.jsx';
 import Bapublication from './Component/Publication/Book/bamain.jsx';
 import Brpublication from './Component/Publication/Book/brmain.jsx';
+import Collaboration from './Component/Collaboration/main.jsx';
 import {Route,Routes} from "react-router-dom"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 <Route path="/PrPublication" element={<Prpublication/>}/>
 <Route path="/BaPublication" element={<Bapublication/>}/>
 <Route path="/BrPublication" element={<Brpublication/>}/>
+<Route path="/Collaboration" element={<Collaboration/>}/>
 
 </Routes>
     </>
