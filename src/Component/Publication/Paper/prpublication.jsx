@@ -22,10 +22,10 @@ export default function main(props) {
 <div className='content'>
   {postion.detail.map((publicationdetail,pindex)=>(
   <div key={pindex} className='detail'>
-  <p>{publicationdetail.title}</p>
-  <p>Author</p>
-  <p><b>Publication</b></p>
-  <p>Impact factor</p>
+<p>{publicationdetail.title}</p>
+  <p>{publicationdetail.author}</p>
+  <p><b>{publicationdetail.Publication}</b></p>
+  <p>{publicationdetail.impactFactor}</p>
 </div>
   ))}
 

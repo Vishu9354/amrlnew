@@ -17,7 +17,7 @@ export default function publication() {
         },
         {
           title:"Influence of post-heat treatment with super β transus temperature on the fatigue behaviour of LPBF processed Ti6Al4V",
-          author:"Name of all the authAkshay Pathania, Anand Kumar Subramaniyan, Nagesha Bommanahalli Kenchappa",
+          author:"Akshay Pathania, Anand Kumar Subramaniyan, Nagesha Bommanahalli Kenchappa",
           Publication:"Springer Netherlands",
           impactFactor:"5.4",
           link:"https://link.springer.com/article/10.1007/s10704-024-00784-5",
