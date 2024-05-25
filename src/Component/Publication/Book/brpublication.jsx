@@ -25,7 +25,7 @@ export default function main(props) {
   <p>{publicationdetail.title}</p>
   <p>{publicationdetail.author}</p>
   <p><b>{publicationdetail.Publication}</b></p>
-  <p>{publicationdetail.impactFactor}</p>
+  <p>Impact Factor: {publicationdetail.impactFactor}</p>
 </div>
   ))}
 
