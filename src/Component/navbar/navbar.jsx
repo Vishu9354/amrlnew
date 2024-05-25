@@ -43,7 +43,7 @@ export default function navbar() {
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Facilities</a>
+          <Link class="nav-link" to="/Facility">Facilities</Link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

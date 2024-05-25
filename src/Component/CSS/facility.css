@@ -1,0 +1,35 @@
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.fbox{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 80%;
+    padding: 25px;
+}
+.fcontent{
+    width: 50%;
+}
+.ftitle{
+    font-size: 35px;
+    border-bottom: 5px solid blue;
+}
+.fspecification{
+    margin-top: 25px;
+}
+.fspecification p{
+    font-size: 25px;
+}
+
+.fimage{
+
+    position: relative;
+    object-fit: fill;
+}
+.fimage img{
+    height: 450px;
+    width: 450px;
+}
