@@ -53,7 +53,6 @@ export default function publication() {
    <>
 <Carousel/>
 <Publication publication={publication}/>
-{/* <Rpublication publication={publication}/> */}
  
    </>
   )

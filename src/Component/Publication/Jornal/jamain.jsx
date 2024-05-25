@@ -21,32 +21,27 @@ export default function publication() {
           Publication:"Name of Publication",
           impactFactor:'Impact factor',
           link:'#',
-
         },
+        {
+          title:"dfd",
+          author:"v",
+          Publication:'',
+
+
+        }
+        
       ]
       
     },
     {
-      year:"2023",
+      year:"",
       detail:[
         {
-          title:"Name of Anand sir jornal",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
-
-        },
-        {
-          title:"Name of Anand sir jornal",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
-        },
+          
+        }
       ]
-      
-    },
+    }
+    
   ]
   
   return (
