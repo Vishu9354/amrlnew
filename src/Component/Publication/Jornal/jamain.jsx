@@ -37,13 +37,7 @@ export default function publication() {
           impactFactor:'5',
           link:'https://www.sciencedirect.com/science/article/pii/S003039922400029X',
         },
-        {
-          title:"",
-          author:"",
-          Publication:'',
-          impactFactor:'',
-          link:'',
-        },
+       
         {
           title:"Exploring How LPBF process parameters impact the interface characteristics of LPBF Inconel 718 deposited on Inconel 718 wrought substrates",
           author:"Shrivastava Abhishek, S Anand Kumar, Samrat Rao",
