@@ -26,12 +26,10 @@ export default function publication() {
           title:"dfd",
           author:"v",
           Publication:'',
-
-
         }
         
       ]
-      
+
     },
     {
       year:"",
