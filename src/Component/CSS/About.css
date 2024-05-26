@@ -1,0 +1,14 @@
+.acontainer{
+    display: flex;
+    justify-content: center;
+}
+.abox{
+    width: 70%;
+    padding: 25px;
+}
+.aimage img{
+    width: 100%;
+}
+.about{
+    margin-top: 25px;
+}

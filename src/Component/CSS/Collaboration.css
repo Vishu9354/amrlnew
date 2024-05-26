@@ -1,3 +1,7 @@
+.ccontainer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
 .box{
     width: 400px;
     border: 1px solid black;

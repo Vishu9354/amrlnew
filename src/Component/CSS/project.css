@@ -1,0 +1,32 @@
+.prjbox{
+    border: 1px solid black;
+    width: 350px;
+    margin: 45px;
+}
+.prjimage{
+    position: relative;
+    object-fit: fill;
+    /* padding: 25px; */
+    transition: ease 1s;
+}
+.prjimage:hover{
+    transform: scale(1.1);
+}
+.prjimage img{
+    height:250px;
+    width: 100%;
+}
+.prjtitle{
+    font-size: 1.3rem;
+}
+.prjcontent{
+    padding: 25px;
+    font-size: 0.9rem;
+}
+.prjdetail{
+    margin-top: 10px;
+}
+.Prjvalue,.fundingagency,.Prjno{
+    display: flex;
+    justify-content: space-between;
+}

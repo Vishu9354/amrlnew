@@ -18,7 +18,7 @@ export default function navbar() {
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
+          <Link class="nav-link" to="/About">About us</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Teaching</a>
@@ -34,12 +34,22 @@ export default function navbar() {
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Research Activites
+            Research
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Funded Projects</a></li>
-            <li><a class="dropdown-item" href="#">PhD Research</a></li>
-            <li><a class="dropdown-item" href="#">Student Projects</a></li>
+            <li><Link class="dropdown-item" to="/Funded">Funded Projects</Link></li>
+            <li><Link class="dropdown-item" href="#">PhD Research</Link></li>
+            <li><Link class="dropdown-item" href="#">Student Projects</Link></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Activites
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Awards</a></li>
+            <li><a class="dropdown-item" href="#">Conferences</a></li>
+            <li><a class="dropdown-item" href="#">Invited Talk</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -51,7 +61,7 @@ export default function navbar() {
           </a>
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/Collaboration">National</Link></li>
-            <li><a class="dropdown-item" href="#">International</a></li>
+            <li><Link class="dropdown-item" to="/Icollaboration">International</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
