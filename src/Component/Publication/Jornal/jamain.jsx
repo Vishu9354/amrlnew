@@ -4,7 +4,7 @@ import Publication from "./japublication.jsx"
 import Carousel from '../carousel.jsx'
 import {Route,Routes} from "react-router-dom"
 import publication from '../Paper/pamain.jsx'
-export default function publication() {
+export default function jamain() {
   const publication=[
     {
       year:"2024",

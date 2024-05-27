@@ -3,7 +3,8 @@ import Publication from "./papublication.jsx"
 // import Rpublication from "./jRpublication.jsx"
 import Carousel from '../carousel.jsx'
 import {Route,Routes} from "react-router-dom"
-export default function publication() {
+
+export default function pamain() {
   const publication=[
 
     {
