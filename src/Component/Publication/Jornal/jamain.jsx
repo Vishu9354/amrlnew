@@ -3,6 +3,7 @@ import Publication from "./japublication.jsx"
 // import Rpublication from "./jRpublication.jsx"
 import Carousel from '../carousel.jsx'
 import {Route,Routes} from "react-router-dom"
+import publication from '../Paper/pamain.jsx'
 export default function publication() {
   const publication=[
     {
@@ -201,8 +202,143 @@ export default function publication() {
             link:'https://www.sciencedirect.com/journal/surface-and-coatings-technology', 
           },
           {
+            title:"Investigation on pulsed electrolytically polished AlSi10Mg alloy processed via selective laser melting technique",
+            author:"S Anand Kumar, Anigani Sudarshan Reddy, Snehith Mathias, Abhishek Shrivastava, Prasad Raghupatruni",
+            Publication:'Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications',
+            impactFactor:'2.5',
+            link:'https://journals.sagepub.com/doi/full/10.1177/14644207211045301', 
+          },
+          {
+            title:"Elevated temperature erosive wear behavior of superalloy coatings deposited using cold spray technology",
+            author:"BV Padmini, Mahantayya Mathapati, HB Niranjan, P Sampathkumaran, S Anand Kumar, G Padmavathi",
+            Publication:'Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications',
+            impactFactor:'2.5',
+            link:'https://journals.sagepub.com/doi/full/10.1177/14644207211037010', 
+          },
+          {
+            title:"Influence of post-processing techniques on residual stresses of SLM processed HPNGV",
+            author:"K Vinodh, Amit Kumar Tigga, Sanjay Barad",
+            Publication:'Journal of Manufacturing Processes',
+            impactFactor:'6.2',
+            link:'https://www.sciencedirect.com/journal/journal-of-manufacturing-processes', 
+          },
+          {
+            title:"Remanufacturing of nickel-based aero-engine components using metal additive manufacturing technology",
+            author:"Abhishek Shrivastava, Samrat Rao, BK Nagesha, Sanjay Barad, TN Suresh",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785321004466', 
+          },
+          {
+            title:"Investigation on the greyscale pixel methodology for additive manufactured part: an in-situ quality assessment approach",
+            author:"International Journal of Rapid Manufacturing",
+            impactFactor:'',
+            link:'https://www.inderscienceonline.com/doi/abs/10.1504/IJRAPIDM.2021.120019', 
+          },
+          {
+            title:"Selective laser melting of titanium alloys: effect of processing parameters on microstructure and mechanical properties",
+            author:"Ajay Kushwaha, S Anand Kumar, Rajkumar Velu",
+            publication:'International Journal of Mechatronics and Manufacturing Systems',
+            impactFactor:'',
+            link:'https://www.inderscienceonline.com/doi/abs/10.1504/IJMMS.2021.119156', 
+          },
+          {
+            title:"Influence of post-heat treatment on microstructure, mechanical, and wear properties of maraging steel fabricated using direct metal laser sintering technique",
+            author:"Shubhendra Singh Yadav Anand Kumar S, Sudarshan Reddy Anigani, Snehith Mathias, Akshay Pathania, Prasad Raghupatruni",
+            publication:'Journal of Material and Design Application',
+            impactFactor:'2.5',
+            link:'https://journals.sagepub.com/doi/full/10.1177/14644207211037342', 
+          },
+          {
+            title:"Reclamation of titanium alloy based aerospace parts using laser based metal deposition methodology",
+            author:"Suresh T N Akshay Pathania, Anand Kumar S, Nagesha B K, Sanjay Barad",
+            publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785321004454', 
+          },
+          {
+            title:"Single crystal metal deposition using laser additive manufacturing technology for repair of aero-engine components",
+            author:"Suresh T N Anand Kumar S, Raj Kumar V, Nagesha B K, Amit Kumar Tigga, Sanjay Barad",
+            publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785321011457', 
+          },
+        ]
+  
+      },
+      
+      {
+        year:"2020",
+        detail:[
+          {
+  
+            title:"Artificial neural network technique to predict dynamic fracture of particulate composite",
+            author:"Vinod Kushvaha, S Anand Kumar, Priyanka Madhushri, Aanchna Sharma",
+            Publication:'Journal of composite Materials',
+            impactFactor:'2.9',
+            link:'https://journals.sagepub.com/doi/full/10.1177/0021998320911418', 
+          },
+          {
+  
+            title:"Dynamic-mechanical properties as a function of luffa fibre content and adhesion in a polyester composite",
+            author:"G Kalusuraman, Irulappasamy Siva, Yashwant Munde, Chithirai Pon Selvan, S Anand Kumar, Sandro C Amico",
+            Publication:'Polymer Testing',
+            impactFactor:'5.1',
+            link:'https://www.sciencedirect.com/science/article/pii/S0142941820301550', 
+          },
+          {
+            title:"Effect of aspect ratio on dynamic fracture toughness of particulate polymer composite using artificial neural network",
+            author:"Aanchna Sharma, S Anand Kumar, Vinod Kushvaha",
+            Publication:'Engineering Fracture Mechanics',
+            impactFactor:'5.4',
+            link:'https://www.sciencedirect.com/science/article/pii/S0013794419313712', 
   
           },
+          {
+          title:"Unidirectional dry sliding wear analysis of ZE41 magnesium alloy",
+          author:"M Brahmansh Kaushik, Anand Kumar S, Ram Prabhu T, Arivarasu",
+          Publication:'IOP Conf. Series: Materials Science and Engineering',
+          impactFactor:'',
+          link:'https://iopscience.iop.org/article/10.1088/1757-899X/1004/1/012017/meta', 
+
+        },
+        {
+          title:"Laser shock peening (LSP): Electrochemical and hydrodynamic investigation of corrosion protection pre-treatment for a copper surface in 3.5 % NaCl medium",
+          author:"R.C.Barik V.I.Chukwuike, O.G.Echemc, S.Prabhakaran, S.Anand Kumar",
+          Publication:'Corrosion Science',
+          impactFactor:'8.3',
+          link:'https://www.sciencedirect.com/journal/corrosion-science', 
+
+        },
+        {
+          title:"Evaluation methods for residual stress measurement in large components",
+          author:"Papa Rao Nikhil Gautam, Anand Kumar S",
+          Publication:'Materials Today: Proceedings',
+          impactFactor:'24.2',
+          link:'https://www.sciencedirect.com/journal/materials-today-proceedings', 
+
+        },
+        {
+          title:"A numerical modelling approach for prediction of distortion in LPBF processed Inconel 718",
+          author:"Samrat Rao Abhishek Shrivastava, Anand Kumar S",
+          Publication:'Materials Today: Proceedings',
+          impactFactor:'24.2',
+          link:'https://www.sciencedirect.com/science/article/pii/S221478532038161X', 
+
+        },
+        {
+          title:"Residual stresses induced by laser shock peening in orthopaedic Ti-6Al-7Nb alloy",
+          author:"X Shen, P Shukla, Anand Kumar S., Ann Zammit, PhilipSwanson, Jonathan Lawrence, Michael E.Fitzpatrick",
+          Publication:'Optics and Laser Technology',
+          impactFactor:'8',
+          link:'https://www.sciencedirect.com/science/article/pii/S0030399220310793', 
+
+        },
+
+
+
+
+
   
           
            

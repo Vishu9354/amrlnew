@@ -57,7 +57,55 @@ export default function publication() {
         
       ]
 
-    }
+    },
+    {
+      year:"2021",
+      detail:[
+        {
+
+          title:"Additive Manufacturing",
+          author:"SA Kumar, RVS Prasad",
+          Publication:'Woodhead Publishing',
+          link:'https://scholar.google.com/scholar?cluster=9948064866181954665&hl=en&oi=scholarr', 
+        },
+        {
+
+          title:"A thermo–mechanical modelling approach on the residual stress prediction of SLM processed HPNGV aeroengine part",
+          author:"BK Nagesha, S Anand Kumar, K Vinodh, Akshay Pathania, Sanjay Barad",
+          Publication:'Materials Today: Proceedings',
+          link:'https://www.sciencedirect.com/science/article/pii/S2214785320406583', 
+        },
+      ]
+    },
+    
+    {
+      year:"2020",
+      detail:[
+        {
+          title:"Prediction of the fracture toughness of silicafilled epoxy composites using K-nearest neighbor (KNN) method",
+          author:"Aanchna Sharma, Priyanka Madhushri, Vinod Kushvaha, Anand Kumar",
+          Publication:'2020 international conference on computational performance evaluation (ComPE)',
+          link:'https://ieeexplore.ieee.org/abstract/document/9200093', 
+
+          
+        },
+        {
+
+          title:"",
+          author:"",
+          Publication:'s',
+          link:'', 
+        },
+        {
+          
+        },
+
+        
+         
+
+      ]
+
+    },
     
   ]
   
@@ -70,6 +118,18 @@ export default function publication() {
    </>
   )
 }
+
+    
+  
+  
+ 
+  
+  
+
+  
+
+    
+  
 
 
   
