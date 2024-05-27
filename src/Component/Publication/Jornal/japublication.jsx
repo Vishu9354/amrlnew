@@ -12,8 +12,8 @@ export default function main(props) {
   return (
     <>
    <div className='Sir'>
-      <div><Link to="/Publication">Dr.Anad kumar </Link></div>
-      <div><Link to="/RPublication">Dr. Rajkumar Velu</Link></div>
+      <div><Link to="/BaPublication" style={{textDecoration:'underline'}}>Dr. S. Anand Kumar</Link></div>
+      <div><Link to="/BrPublication">Dr. Rajkumar Velu</Link></div>
     </div>
 {props.publication?.map((postion,index)=>(
 

@@ -11,9 +11,9 @@ import {Route,Routes} from "react-router-dom"
 export default function main(props) {
   return (
     <>
-      <div className='Sir'>
-      <div><Link to="/PaPublication">Dr.Anad kumar </Link></div>
-      <div><Link to="/PrPublication">Dr. Rajkumar Velu</Link></div>
+     <div className='Sir'>
+      <div><Link to="/BaPublication" style={{textDecoration:'underline'}}>Dr. S. Anand Kumar</Link></div>
+      <div><Link to="/BrPublication">Dr. Rajkumar Velu</Link></div>
     </div>
 {props.publication?.map((postion,index)=>(
 

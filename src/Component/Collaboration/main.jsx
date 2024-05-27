@@ -10,6 +10,13 @@ export default function main() {
       uni:'University',
       topic:'Research Topic',
     },
+    {
+      image:'',
+      name:'name',
+      country:'country',
+      uni:'University',
+      topic:'Research Topic',
+    },
    
   ]
   return (
