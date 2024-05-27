@@ -46,8 +46,8 @@ export default function publication() {
           Publication:"MDPI",
           impactFactor:'',
           link:'https://www.mdpi.com/2079-4991/12/23/4251',
-          },
-          {
+        },
+        {
           title:"Perspective chapter: multi-material in 3D printing for engineering applications",
           author:"Rajkumar Velu, R Sathishkumar, A Saiyathibrahim",
           Publication:"IntechOpen",
@@ -56,11 +56,74 @@ export default function publication() {
         },
      ]
    },
+   {
+      year:"2020",
+      detail:[
+      {
+         title:"Effect of process parameters on polyamide-6 carbon fibre prepreg laminated by IR-assisted automated fibre placement",
+         author:"Chadurvedi Venkatesan, Rajkumar Velu, Nahaad Vaheed, Felix Raspall, Tong-Earn Tay, Arlindo Silva",
+         Publication:"Springer London",
+         impactFactor:'',
+         link:'https://link.springer.com/article/10.1007/s00170-020-05230-z',
+      },
+      {
+         title:"Perspective chapter: multi-material in 3D printing for engineering applications",
+         author:"Rajkumar Velu, R Sathishkumar, A Saiyathibrahim",
+         Publication:"IntechOpen",
+         impactFactor:'',
+         link:'https://books.google.co.in/books?hl=en&lr=&id=qyJ-EAAAQBAJ&oi=fnd&pg=PA117&dq=info:S3jONmIH_34J:scholar.google.com&ots=a7iJiFSFeV&sig=U2MzsPTmfDpQJNItvwOW0rf8vVE&redir_esc=y#v=onepage&q&f=false',
+      },
+      {
+         title:"Preparation and evaluation of the tensile characteristics of carbon fiber rod reinforced 3D printed thermoplastic composites",
+         author:"Arivazhagan Selvam, Suresh Mayilswamy, Ruban Whenish, Rajkumar Velu, Bharath Subramanian",
+         Publication:"MDPI",
+         impactFactor:'',
+         link:'https://www.mdpi.com/2504-477X/5/1/8',
+      },
+      {
+         title:"Experimental investigation of robotic 3D printing of high-performance thermoplastics (PEEK): a critical perspective to support automated fibre placement process (vol 15, pg 613 …",
+         author:"Rajkumar Velu, Nahaad Vaheed, Murali Krishnan Ramachandran, Felix Raspall",
+         Publication:"SPRINGER LONDON LTD",
+         impactFactor:'3.4',
+         link:'https://scholar.google.com/scholar?cluster=12857389802277071488&hl=en&oi=scholarr',
+      },
+      {
+         title:"Experimental investigation of robotic 3D printing of high-performance thermoplastics (PEEK): a critical perspective to support automated fibre placement process",
+         author:"Rajkumar Velu, Nahaad Vaheed, Murali Krishnan Ramachandran, Felix Raspall",
+         Publication:"Springer London",
+         impactFactor:'',
+         link:'https://link.springer.com/article/10.1007/s00170-019-04623-z',
+      },
+    ]
+  },
+  {
+      year:"2019",
+      detail:[
+      {
+         title:"A comprehensive review on bio-nanomaterials for medical implants and feasibility studies on fabrication of such implants by additive manufacturing technique",
+         author:"Rajkumar Velu, Theo Calais, Arunkumar Jayakumar, Felix Raspall",
+         Publication:"Materials",
+         impactFactor:'',
+         link:'https://www.mdpi.com/1996-1944/13/1/92',
+      },
+      {
+        title:"Selective laser sintering responses of keratin-based bio-polymer composites",
+        author:"Sarat Singamneni, Rajkumar Velu, Malaya Prasad Behera, Sonya Scott, Peter Brorens, Duane Harland, Juliet Gerrard",
+        Publication:"Elsevier",
+        impactFactor:'8.4',
+        link:'https://www.sciencedirect.com/science/article/pii/S0264127519305258',
+      },
+      {
+        title:"",
+        author:"",
+        Publication:"",
+        impactFactor:'',
+        link:'',
+      },
+    ]
+  },
 
-
-
-
-]
+  ]
  return (
   <>
 <Carousel/>

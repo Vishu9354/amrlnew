@@ -45,12 +45,14 @@ export default function publication() {
     },
       
     {
+
+
       year:"2021",
       detail:[
         {
           title:"Laser powder bed fusion technique of hydrogen–fueled gas turbine: Role of advanced materials and its challenges",
           author:"Shreyas Nandakumar Harithsa, S Anand Kumar, Rajkumar Velu, BK Nagesha",
-          Publication:"Elsevier",
+          Publication:"Additive Manufacturing",
           impactFactor:'3.2',
           link:'https://www.sciencedirect.com/science/article/pii/S2214785323014359',
         },
@@ -63,23 +65,29 @@ export default function publication() {
 
         },
         {
-          title:"Name of Raj kumar Sir paper",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
+          title:"Single crystal metal deposition using laser additive manufacturing technology for repair of aero-engine components",
+          author:"V Rajkumar, BK Nagesha, Amit Kumar Tigga, Sanjay Barad, TN Suresh",
+          Publication:"Elsevier",
+          impactFactor:'',
+          link:'https://www.sciencedirect.com/science/article/pii/S2214785321011457',
 
         },
-        {
-          title:"Name of Raj kumar Sir paper",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
-        },
+        
       ]
       
     },
+
+    {
+      year:"2019",
+      detail:[
+        {
+          title:"Fabrication of complex 3D composites by fusing automated fiber placement (AFP) and additive manufacturing (AM) technologies",
+          author:"Felix Raspall, Rajkumar Velu, Nahaad Mohammed Vaheed",
+          Publication:"",
+          impactFactor:'',
+          link:'https://www.tandfonline.com/doi/full/10.1080/20550340.2018.1557397',
+        },
+    }
     
     
   ]

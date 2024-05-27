@@ -19,7 +19,7 @@ export default function publication() {
         {
           title:"State-of-the-Art Overview and Recent Trends in Biomedical Devices Using Digital Manufacturing: Opportunities, Limitations, and Current Market",
           author:"Murali Krishnan Ramachandran, Jairam Raigar, Manigandan Kannan, Rajkumar Velu",
-          Publication:"Springer Nature Singapore",
+          Publication:"Digital Design and Manufacturing of Medical Devices and Systems",
           impactFactor:'',
           link:'https://link.springer.com/chapter/10.1007/978-981-99-7100-8_1',
 
@@ -62,7 +62,7 @@ export default function publication() {
         {
           title:"Additive manufacturing of functionally graded materials: A comprehensive review",
           author:"Mohit Teacher, Rajkumar Velu",
-          Publication:"Korean Society for Precision Engineering",
+          Publication:"International Journal of Precision Engineering and Manufacturing",
           impactFactor:'',
           link:'https://link.springer.com/article/10.1007/s12541-023-00864-x',
         },
@@ -129,7 +129,7 @@ export default function publication() {
        {
          title:"Polymer based flow field plates for polymer electrolyte membrane fuel cell and the scope of additive manufacturing: A techno‐economic review",
          author:"Dinesh Kumar Madheswaran, Arunkumar Jayakumar, Rajkumar Velu, Rajendran Raj, Edwin Geo Varuvel",
-         Publication:"John Wiley & Sons, Inc",
+         Publication:"International Journal of Energy Research",
          impactFactor:'',
          link:'https://onlinelibrary.wiley.com/doi/abs/10.1002/er.8645',
         },
@@ -150,7 +150,7 @@ export default function publication() {
         {
          title:"Chitosan biopolymer for 3D printing: a comprehensive review",
          author:"Dhileep Kumar Jayashankar, Sachin Sean Gupta, Rajkumar Velu, Arunkumar Jayakumar",
-         Publication:"Apple Academic Press",
+         Publication:"Natural Polymers",
          impactFactor:'',
          link:'https://www.taylorfrancis.com/chapters/edit/10.1201/9781003130765-5/chitosan-biopolymer-3d-printing-comprehensive-review-dhileep-kumar-jayashankar-sachin-sean-gupta-rajkumar-velu-arunkumar-jayakumar',
         },
@@ -176,7 +176,7 @@ export default function publication() {
       {
         title:"Selective laser melting of titanium alloys: effect of processing parameters on microstructure and mechanical properties",
         author:"Ajay Kushwaha, S Anand Kumar, Rajkumar Velu",
-        Publication:"Inderscience Publishers (IEL)",
+        Publication:"International Journal of Mechatronics and Manufacturing Systems",
         impactFactor:'',
         link:'https://www.inderscienceonline.com/doi/abs/10.1504/IJMMS.2021.119156',
       },
