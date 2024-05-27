@@ -137,14 +137,18 @@ export default function publication() {
           Publication:'Advances in Mechanical Engineering: Select Proceedings of ICAME 2020',
           link:'https://link.springer.com/chapter/10.1007/978-981-15-3639-7_75',
         }
+      ]
+    }, 
+    {
+      year:"2017",
+      detail:[
         {
 
-          title:"Dynamic-mechanical properties as a function of luffa fibre content and adhesion in a polyester composite",
-          author:"G Kalusuraman, Irulappasamy Siva, Yashwant Munde, Chithirai Pon Selvan, S Anand Kumar, Sandro C Amico",
-          Publication:'Polymer Testing',
-          impactFactor:'5.1',
-          link:'https://www.sciencedirect.com/science/article/pii/S0142941820301550', 
-        },
+          title:"",
+          author:"",
+          Publication:'',
+          link:'',
+        }
       ]
     }, 
   ]
@@ -158,5 +162,4 @@ export default function publication() {
    </>
   )
 }
-
     

@@ -86,27 +86,42 @@ export default function publication() {
           author:"Aanchna Sharma, Priyanka Madhushri, Vinod Kushvaha, Anand Kumar",
           Publication:'2020 international conference on computational performance evaluation (ComPE)',
           link:'https://ieeexplore.ieee.org/abstract/document/9200093', 
-
-          
         },
+      ]
+    },
+    {
+      year:"2019",
+      detail:[
+        {
+
+          title:"Dissimilar Lap Joint of Al6063–AZ91 Mg Alloy by Friction Stir Welding",
+          author:"Venkata Kondaiah VEMULA, Yogeshwar Chakrapani Venkatesan, Siva Irullappasamy, Anandkumar Subramaniyan, Ravikumar Dumpala",
+          Publication:'Journal of composite Materials',
+          link:'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3671807', 
+        },
+        {
+
+          title:"Dynamic-mechanical properties as a function of luffa fibre content and adhesion in a polyester composite",
+          author:"G Kalusuraman, Irulappasamy Siva, Yashwant Munde, Chithirai Pon Selvan, S Anand Kumar, Sandro C Amico",
+          Publication:'Polymer Testing',
+          impactFactor:'5.1',
+          link:'https://www.sciencedirect.com/science/article/pii/S0142941820301550', 
+        },
+      ]
+
+    },
+    {
+      year:"2017",
+      detail:[
         {
 
           title:"",
           author:"",
-          Publication:'s',
-          link:'', 
-        },
-        {
-          
-        },
-
-        
-         
-
+          Publication:'',
+          link:'',
+        }
       ]
-
-    },
-    
+    }, 
   ]
   
   return (
