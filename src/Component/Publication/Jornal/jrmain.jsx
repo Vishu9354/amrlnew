@@ -142,6 +142,18 @@ export default function publication() {
     ]  
     
   },
+  {
+    year:"2015",
+      detail:[
+      {
+         title:"Evaluation of the influences of process parameters while selective laser sintering PMMA powders",
+         auther:"Rajkumar Velu, Sarat Singamneni",
+         Publication:"SAGE Publications",
+         impactFactor:'2.0',
+         link:'https://journals.sagepub.com/doi/full/10.1177/0954406214538012',
+      },
+      ]
+  }
 
   ]
  return (

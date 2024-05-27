@@ -3,6 +3,7 @@ import React from 'react'
 import Rpublication from "./papublication.jsx"
 import Carousel from '../carousel.jsx'
 import {Route,Routes} from "react-router-dom"
+import { titleize } from 'i/lib/methods.js'
 export default function publication() {
  
   const publication=[
@@ -127,6 +128,66 @@ export default function publication() {
           Publication:"Springer Singapore",
           impactFactor:'',
           link:'https://link.springer.com/chapter/10.1007/978-981-10-1771-1_53',
+        },
+        {
+          title:"Effect of surface modification and hybridization of coir fiber on mechanical properties of nylon/epoxy hybrid composites",
+          auhtor:"M Venkatasudhahar, R Velu, K Logesh, R Ganesh",
+          Publication:"",
+          impactFactor:'',
+          link:'https://sdbindex.com/documents/00000002/00000-47681.pdf',
+        },
+        {
+          title:"Selective Laser Sintering of PMMA and PMMA Plus β-tricalcium Phosphate Polymer Composites",
+          author:"Rajkumar Velu",
+          Publication:"",
+          impactFactor:'',
+          link:'https://openrepository.aut.ac.nz/items/47d6d2f6-6d3c-4dbc-80b0-499330922424',
+        },
+      ]
+    },
+
+    {
+      year:"2016",
+      detail:[
+        {
+          title:"Selective laser sintering of biocomposite materials",
+          author:"R Velu, A Fernyhough, DA Smith, M Guen, S Singamneni",
+          Publication:"",
+          impactFactor:'',
+          link:'https://www.researchgate.net/profile/Rajkumar-Velu-2/publication/310512069_Selective_laser_sintering_of_biocomposite_materials/links/5a94cf120f7e9ba42970d931/Selective-laser-sintering-of-biocomposite-materials.pdf',
+        }, 
+      ]
+    },
+
+    {
+      year:"2015",
+      detail:[
+        {
+          title:"THERMAL ASPECTS OF SELECTIVE LASER SINTERING OF PMMA+ β-TCP COMPOSITES",
+          author:"Rajkumar Velu, Sarat Singamneni",
+          Publication:"University of Austin, Texas",
+          impactFactor:'',
+          link:'https://repositories.lib.utexas.edu/items/90b0bc16-724b-42ea-8f9f-88d0c8e52577',
+        },
+      ]
+    },
+
+    {
+      year:"2014",
+      detail:[
+        {
+          title:"Selective laser sintering of polymer biocomposites based on polymethyl methacrylate",
+          author:"Rajkumar Velu, Sarat Singamneni",
+          Publication:"Cambridge University Press",
+          impactFactor:'',
+          link:'https://www.cambridge.org/core/journals/journal-of-materials-research/article/abs/selective-laser-sintering-of-polymer-biocomposites-based-on-polymethyl-methacrylate/CDCB02CA8538E86EB00AA292CA38E9FB',
+        },
+        {
+          title:"A Review ofFinite Element Method in Selective Laser Sintering (SLS) Process",
+          author:"Rajkumar Velu, Sarat Singamneni",
+          Publication:"",
+          impactFactor:'',
+          link:'https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:CyUuP7lWuDwJ:scholar.google.com/',
         },
       ]
     },
