@@ -114,13 +114,33 @@ export default function publication() {
         link:'https://www.sciencedirect.com/science/article/pii/S0264127519305258',
       },
       {
-        title:"",
-        author:"",
-        Publication:"",
+        title:"Experimental investigation on fabrication of thermoset prepreg composites using automated fibre placement process and 3D printed substrate",
+        author:"Rajkumar Velu, Nahaad Mohammed Vaheed, Chadurvedi Venkatesan, Felix Raspall, Murali Krishnan",
+        Publication:"Procedia CIRP",
+        impactFactor:'3.5',
+        link:'https://www.sciencedirect.com/science/article/pii/S2212827119313149',
+      },
+      {
+        title:"3D printing technologies and composite materials for structural applications",
+        author:"Rajkumar Velu, Felix Raspall, Sarat Singamneni",
+        Publication:"Woodhead Publishing",
         impactFactor:'',
-        link:'',
+        link:'https://www.sciencedirect.com/science/article/abs/pii/B9780081021774000082',
       },
     ]
+  },
+  {
+    year:"2018",
+      detail:[
+      {
+         title:"Post-process composition and biological responses of laser sintered PMMA and β-TCP composites",
+         author:"Rajkumar Velu, Banu Pradheepa Kamarajan, Muthusamy Ananthasubramanian, Truc Ngo, Sarat Singamneni",
+         Publication:"Cambridge University Press",
+         impactFactor:'',
+         link:'https://www.cambridge.org/core/journals/journal-of-materials-research/article/abs/postprocess-composition-and-biological-responses-of-laser-sintered-pmma-and-tcp-composites/0A0E5B5EB00E45FBC342570BB8AE7BDA',
+      },
+    ]  
+    
   },
 
   ]
