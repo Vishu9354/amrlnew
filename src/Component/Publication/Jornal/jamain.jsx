@@ -469,22 +469,125 @@ export default function publication() {
             Publication:'Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology',
             impactFactor:'2.0',
             link:'https://journals.sagepub.com/doi/full/10.1177/1350650117692707',
-          }
+          },
+          {
+            title:"Microstructure, hardness and wear behavior of AZ31 Mg alloy – fly ash composites produced by friction stir processing",
+            author:"B. Ratna Sunil V.V. Kondaiah, P. Pavanteja, P. Afzal Khan, Anand Kumar S, Ravikumar Dumpala",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785317312452',
+          },
+          {
+            title:"A pragmatic approach and quantitative assessment of silt erosion characteristics of HVOF and HVAF processed WC-CoCr coatings and 16Cr5Ni steel for hydro turbine applications",
+            author:"Anand Kumar S Kumar R. K, Kamaraj M, Seetharamu S. R",
+            Publication:'Materials and Design',
+            impactFactor:'8.4',
+            link:'https://www.sciencedirect.com/science/article/pii/S0264127517306299',
+          },
+          {
+            title:"Effects of Laser Peening and Counterbody Material on Fretting Wear Behaviour of Alloy 718",
+            author:"Gnanamoorthy. S. Anand Kumar, Sundar, R., Ganesh Sundara Raman, S.",
+            Publication:'Journal of Engineering Tribology',
+            impactFactor:'',
+            link:'https://scholar.google.com/scholar?cluster=10271159640790363346&hl=en&oi=scholarr',
+          },
+
         ]
       }, 
-    ]
-    
-    return (
-     <>
-  <Carousel/>
-  <Publication publication={publication}/>
-  {/* <Rpublication publication={publication}/> */}
-   
-     </>
-    )
-  }
-    
-   
-    
+   {
+      year:"2016",
+      detail:[
+        {
+
+          title:"Effects of fiber surface modification on the friction coefficient of luffa fiber/polyester composites under dry sliding condition",
+          author:"G Kalusuraman, I Siva, JT Winowlin Jappes, S Anand Kumar",
+          Publication:'Journal of Polymer Engineering',
+          impactFactor:'2.0',
+          link:'https://www.degruyter.com/document/doi/10.1515/polyeng-2015-0316/html',
+        },
+        {
+
+          title:"Influence of SMAT Parameters on Microstructural and Mechanical Properties of Al-Mg-Si AA 6061 Alloy",
+          author:"T.S.N Anand Kumar, S., Satish Kumar P., Ganesh Sundara Raman, S. and Sankara Narayanan",
+          Publication:'Journal of Materials Engineering and Performance',
+          impactFactor:'2.3',
+          link:'https://link.springer.com/article/10.1007/s11665-017-2612-z',
+        },
+      ]
+    }, 
+    {
+      year:"2014",
+      detail:[
+        {
+
+          title:"Influence of Surface Mechanical Attrition Treatment Duration on Fatigue Lives of Ti- 6Al-4V",
+          author:"Anand Kumar, S., Ganesh Sundara Raman, S. and Sankara Narayanan, T.S.N.",
+          Publication:'Transactions of the Indian Institute of Metals',
+          impactFactor:'1.6',
+          link:'https://link.springer.com/article/10.1007/s12666-013-0322-2',
+        },
+        {
+          title:"Influence of laser peening on microstructure and fatigue lives of Ti–6Al–4V",
+          author:"K.S. Anand Kumar, S., Sundar, R., Ganesh Sundara Raman, S., Kumar, H., Gnanamoorthy, R., Kaul, R., Ranganathan, K., Oak, S.M., and Kukreja, L.M and Bindra",
+          Publication:'Transaction of Nonferrous Materials Society China',
+          impactFactor:'4.5',
+          link:'https://www.sciencedirect.com/science/article/pii/S100363261463449X',
+        },
+        {
+          title:"Performance of alumina coatings prepared by hard anodizing, micro arc oxidation and detonation spray processes on Al–Mg–Si alloy under fretting wear loading",
+          author:"R. Anand Kumar, S., Sritam Pradhan, Ganesh Sundara Raman, S. and Gnanamoorthy",
+          Publication:'Journal of Engineering Tribology',
+          impactFactor:'2.0',
+          link:'https://journals.sagepub.com/doi/full/10.1177/1350650113513756',
+        },
+      ]
+    }, 
+    {
+      year:"2013",
+      detail:[
+        {
+
+          title:"Ganesh Sundara Raman S, Sankara Narayanan TSN, Gnanamoorthy R. Influence of counterbody material on fretting wear behaviour of surface mechanical attrition treated Ti–6Al–4V",
+          author:"S Anand Kumar",
+          Publication:'Tribol Int',
+          link:'https://scholar.google.co.in/scholar?hl=en&as_sdt=0,5&cluster=153155312833998362',
+        },
+        {
+
+          title:"Fretting wear behaviour of 304 stainless steel fretted against different counterbody materials",
+          author:"R. Anand Kumar, S., Krishna Sai, S., Ganesh Sundara Raman, S. and Gnanamoorthy",
+          Publication:'Tribology - Materials, Surfaces and Interfaces',
+          impactFactor:'1.6',
+          link:'https://journals.sagepub.com/doi/full/10.1179/1751584X13Y.0000000041',
+        },
+        {
+
+          title:"Neutron transmission and capture measurements and analysis of Dy from 0.01 to 550 eV",
+          author:"R. Anand Kumar, S., Ganesh Sundara Raman, S., Sankara Narayanan, T.S.N. and Gnanamoorthy",
+          Publication:'Materials and Design',
+          impactFactor:'2.7',
+          link:'https://www.sciencedirect.com/science/article/pii/S0261306913001878',
+        },
+        {
+
+          title:"Influence of counterbody material on fretting wear behaviour of surface mechanical attrition treated Ti–6Al–4V",
+          author:"R. Anand Kumar, S., Ganesh Sundara Raman, S., Sankara Narayanan, T.S.N. and Gnanamoorthy",
+          Publication:'Tribology International',
+          impactFactor:'6.2',
+          link:'https://www.sciencedirect.com/science/article/pii/S0301679X12002708',
+        },
+      ]
+    }, 
+  ]
+  
+  return (
+   <>
+<Carousel/>
+<Publication publication={publication}/>
+{/* <Rpublication publication={publication}/> */}
+ 
+   </>
+  )
+}
     
  
