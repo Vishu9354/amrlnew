@@ -19,7 +19,7 @@ import Teaching from './Component/Teaching/main.jsx';
 import Faculty from './Component/people/fmain.jsx';
 import Stu from './Component/people/smain.jsx';
 import Award from './Component/Activites/Award/main.jsx';
-
+import Gallery from './Component/Gallery/main.jsx';
 import {Route,Routes} from "react-router-dom"
 
 function App() {
@@ -45,6 +45,8 @@ function App() {
 <Route path="/Faculty" element={<Faculty/>}/>
 <Route path="/Stu" element={<Stu/>}/>
 <Route path="/Award" element={<Award/>}/>
+<Route path="/Gallery" element={<Gallery/>}/>
+
 
 </Routes>
     </>

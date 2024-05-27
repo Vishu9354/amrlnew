@@ -1,0 +1,10 @@
+.imagecontainer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 25px;
+}
+.galleryimage img{
+    margin: 25px;
+    height:95%;
+    width:90%
+}

@@ -75,7 +75,7 @@ export default function navbar() {
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <Link class="nav-link" to="/Gallery">Gallery</Link>
         </li>
       </ul>
     </div>
