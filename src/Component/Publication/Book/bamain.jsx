@@ -107,24 +107,46 @@ export default function publication() {
           link:'https://link.springer.com/chapter/10.1007/978-981-16-7377-1_2', 
         },
         {
-
-          title:"",
-          author:"",
-          Publication:'',
-          impactFactor:'',
-          link:'', 
+          title:"Basic principles of additive manufacturing: different additive manufacturing technologies",
+          author:"S Anand Kumar, RVS Prasad",
+          Publication:'Additive manufacturing',
+          link:'https://www.sciencedirect.com/science/article/abs/pii/B9780128220566000126', 
         },
         {
-
+          title:"Materials for additive manufacturing and 4D printing",
+          author:'RVS Prasad, S Anand Kumar',
+          publication:'Additive manufacturing',
+          link:'https://www.sciencedirect.com/science/article/abs/pii/B9780128220566000084', 
         },
-
-        
-         
-
+        {
+          title:"Effect of peening based processes on tribological and mechanical behavior of bio-implant materials",
+          author:'B.K.C. Ganesh and Anand Kumar S',
+          publication:'Handbook of Modern Coating Technologies Fabrication Methods and Functional Properties',
+          link:'https://www.sciencedirect.com/science/article/abs/pii/B9780444632401000139', 
+        },
       ]
 
     },
-    
+    {
+      year:"2020",
+      detail:[
+        {
+
+          title:"Investigation on Elevated Temperature Tribological Performance of Alloy 718",
+          author:"S Anand Kumar, Ravikumar Dumpala, K Uday Venkat Kiran, R Gnanamoorthy",
+          Publication:'Advances in Mechanical Engineering: Select Proceedings of ICAME 2020',
+          link:'https://link.springer.com/chapter/10.1007/978-981-15-3639-7_75',
+        }
+        {
+
+          title:"Dynamic-mechanical properties as a function of luffa fibre content and adhesion in a polyester composite",
+          author:"G Kalusuraman, Irulappasamy Siva, Yashwant Munde, Chithirai Pon Selvan, S Anand Kumar, Sandro C Amico",
+          Publication:'Polymer Testing',
+          impactFactor:'5.1',
+          link:'https://www.sciencedirect.com/science/article/pii/S0142941820301550', 
+        },
+      ]
+    }, 
   ]
   
   return (
@@ -136,3 +158,5 @@ export default function publication() {
    </>
   )
 }
+
+    
