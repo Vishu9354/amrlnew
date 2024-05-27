@@ -21,15 +21,15 @@ export default function navbar() {
           <Link class="nav-link" to="/About">About us</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Teaching</a>
+          <Link class="nav-link" to="/Teaching">Teaching</Link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             People
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Faculty</a></li>
-            <li><a class="dropdown-item" href="#">Students</a></li>
+            <li><Link class="dropdown-item" to="/Faculty">Faculty</Link></li>
+            <li><Link class="dropdown-item" to="/Stu">Students</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -38,8 +38,8 @@ export default function navbar() {
           </a>
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/Funded">Funded Projects</Link></li>
-            <li><Link class="dropdown-item" href="#">PhD Research</Link></li>
-            <li><Link class="dropdown-item" href="#">Student Projects</Link></li>
+            <li><Link class="dropdown-item" to="/PHD">PhD Research</Link></li>
+            <li><Link class="dropdown-item" to="/Student">Student Projects</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -47,7 +47,7 @@ export default function navbar() {
             Activites
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Awards</a></li>
+            <li><Link class="dropdown-item" to="/Award">Awards</Link></li>
             <li><a class="dropdown-item" href="#">Conferences</a></li>
             <li><a class="dropdown-item" href="#">Invited Talk</a></li>
           </ul>

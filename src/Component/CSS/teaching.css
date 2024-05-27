@@ -1,0 +1,24 @@
+.tbox{
+    display: flex;
+    justify-content: center;
+}
+.teaching{
+    width:50%;
+    padding: 25px;
+}
+.Detail{
+    background-color: #cccccc65;
+    width: 100%;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.Duration{
+    font-size: 30px;
+}
+.coursedetail{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 20px;
+}

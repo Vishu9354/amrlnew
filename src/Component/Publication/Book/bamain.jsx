@@ -137,14 +137,30 @@ export default function publication() {
           Publication:'Advances in Mechanical Engineering: Select Proceedings of ICAME 2020',
           link:'https://link.springer.com/chapter/10.1007/978-981-15-3639-7_75',
         }
+      ]
+    }, 
+    {
+      year:"2017",
+      detail:[
         {
 
-          title:"Dynamic-mechanical properties as a function of luffa fibre content and adhesion in a polyester composite",
-          author:"G Kalusuraman, Irulappasamy Siva, Yashwant Munde, Chithirai Pon Selvan, S Anand Kumar, Sandro C Amico",
-          Publication:'Polymer Testing',
-          impactFactor:'5.1',
-          link:'https://www.sciencedirect.com/science/article/pii/S0142941820301550', 
-        },
+          title:"The development of bio-sandwich structures with brazilian curaua fiber/polyester as face and pvc as core for anti-frictional applications",
+          author:"S.C Siva, I., Thirukumaran, M., Anand Kumar, S., Winowlin Jappes, J.T., Sankar, I., Amico",
+          Publication:'Biocomposites: Properties, Performance and Applications',
+          link:'https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=96EeSLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=96EeSLUAAAAJ:mVC4hKzE2FoC',
+        }
+      ]
+    }, 
+    {
+      year:"2014",
+      detail:[
+        {
+
+          title:"Studies on fatigue life enhancement of pre-fatigued spring steel specimens using laser shock peening",
+          author:"P Ganesh, R Sundar, H Kumar, R Kaul, K Ranganathan, P Hedaoo, G Raghavendra, S Anand Kumar, P Tiwari, DC Nagpure, KS Bindra, LM Kukreja, SM Oak",
+          Publication:'Materials & Design (1980-2015)',
+          link:'https://www.sciencedirect.com/science/article/pii/S0261306913008480',
+        }
       ]
     }, 
   ]
@@ -158,5 +174,4 @@ export default function publication() {
    </>
   )
 }
-
     

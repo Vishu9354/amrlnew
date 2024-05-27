@@ -4,7 +4,7 @@ import Publication from "./japublication.jsx"
 import Carousel from '../carousel.jsx'
 import {Route,Routes} from "react-router-dom"
 import publication from '../Paper/pamain.jsx'
-export default function publication() {
+export default function jamain() {
   const publication=[
     {
       year:"2024",
@@ -334,35 +334,260 @@ export default function publication() {
           link:'https://www.sciencedirect.com/science/article/pii/S0030399220310793', 
 
         },
-
-
-
-
-
-  
-          
-           
-  
         ]
   
       },
       
-    ]
-    
-    return (
-     <>
-  <Carousel/>
-  <Publication publication={publication}/>
-  {/* <Rpublication publication={publication}/> */}
-   
-     </>
-    )
-  }
+      {
+        year:"2019",
+        detail:[
+          {
   
-      
-    
-    
-   
-    
+            title:"Role of friction stir processing parameters on the microstructure and hardness of Ze41 Mg alloy: A Taguchi approach",
+            author:"M Venkataiah, T Anup Kumar, K Venkata Rao, S Anand Kumar, B Ratna Sunil",
+            Publication:'Materials Performance and Characterization',
+            impactFactor:'1.1',
+            link:'https://asmedigitalcollection.asme.org/materialsperformance', 
+          },
+          {
+  
+            title:"A temperature sensor based feedback system to ensure uniform microstructure in a cast product",
+            author:"Brahmansh Kaushik, Ajay Kushwaha, Samrat Rao, S Anand Kumar",
+            Publication:'Manufacturing Technology Today',
+            impactFactor:'',
+            link:'http://mtt.cmti.res.in/index.php/journal/article/view/184', 
+          },
+          {
+  
+            title:"Evaluation of surface pre-treatments on the surface characteristics modifications in sponge gourd (Luffa Cylindrica) fibers",
+            author:"G Kalusuraman, I Siva, Mustafa Aslan, S Anandkumar, KG Satyanarayana",
+            Publication:'Materials Research Express',
+            impactFactor:'2.3',
+            link:'https://iopscience.iop.org/article/10.1088/2053-1591/ab3252/meta', 
+          },
+          {
+  
+            title:"Theoretical and experimental studies on tribological behavior of Luffa fiber reinforced polyester under the influence of surface treatment",
+            author:"G Kalusuraman, I Siva, S Anand Kumar",
+            Publication:'International Polymer Processing',
+            impactFactor:'1.3',
+            link:'https://www.degruyter.com/document/doi/10.3139/217.3629/htmla', 
+          },
+          {
+  
+            title:"Dynamic fracture toughness index: a new integrated methodology for mode-I fracture behaviour of polymer composite under impact loading",
+            author:"Priyanka Madhushri Vinod Kushvaha, S. Anand Kumar",
+            Publication:'Materials Research Express',
+            impactFactor:'2.3',
+            link:'https://iopscience.iop.org/article/10.1088/2053-1591/ab4e35/meta', 
+          },
+          {
+            title:"Indentation creep response and rupture mechanisms in GLARE: Experimental and Statistical Evaluation",
+            author:"Sandro amico MK. Thirukumaran, Siva I, Winowlin Jappes, J.T, Anand Kumar S.",
+            Publication:'Journal of Testing and Evaluation',
+            impactFactor:'1.2',
+            link:'https://asmedigitalcollection.asme.org/testingevaluation', 
+          },
+          {
+            title:"Investigation of Shot Peening Effect on Titanium Alloy Affecting Surface Residual Stress and Roughness for Aerospace Applications",
+            author:"R.K. Kumar, P. SampathKumaran, S. Seetharamu, Anand Kumar S., T. Pramod, G.J. Naveen",
+            Publication:'Journal of Procedia Structural Integrity',
+            impactFactor:'',
+            link:'https://www.sciencedirect.com/science/article/pii/S2452321619300198', 
+          },
+        ]
+  
+      },
+      {
+        year:"2018",
+        detail:[
+          {
+  
+            title:"Influence of heat treatment on the machinability and corrosion behavior of AZ91 Mg alloy",
+            author:"Swetha Chowdary, Ravikumar Dumpala, Ratna Sunil Kondaiah, VV, S. Anand Kumar",
+            Publication:'Journal of magnesium and alloys',
+            impactFactor:'17.6',
+            link:'https://www.sciencedirect.com/science/article/pii/S2213956717300737',
+          },
+          {
+  
+            title:"Cutting Performance of Luffa Cylindrica Fiber–Reinforced Composite by Abrasive Water Jet",
+            author:"and S. Anand Kumar G. Kalusuraman, S. Thirumalai Kumaran, I. Siva",
+            Publication:'Journal of Testing and Evaluation',
+            impactFactor:'',
+            link:'https://www.astm.org/jte20180330.html',
+          },
+          {
+  
+            title:"Effect of Grain Refinement on Corrosion Rate, Mechanical and Machining Behavior of Friction Stir Processed ZE41 Mg Alloy",
+            author:"I. Siva T. Anup Kumar, B. Ratna Sunil, M. Venkataiah, K. Venkata Rao, Anand Kumar S.",
+            Publication:'Transactions of the Indian Institute of Metals',
+            impactFactor:'1.6',
+            link:'https://link.springer.com/article/10.1007/s12666-018-1467-9',
+          },
+          {
+  
+            title:"Developing composites of ZE41 Mg alloy - naturally derived hydroxyapatite by friction stir processing: investigating in vitro degradation behavior",
+            author:"Praveen Kumar N, Naveen C, Sujatha D, Anandarao D, Naga Sireesha J, Anand Kumar S, Siva I, Venkateswarlu B, Jagannatham M & Ratna Sunil B",
+            Publication:'Materials Technology',
+            impactFactor:'3.1',
+            link:'https://www.tandfonline.com/doi/abs/10.1080/10667857.2018.1483470',
+          },
+          {
+  
+            title:"Influence of Constrained Groove Pressing Passes and Annealing Characteristics on the Mechanical Properties of 6061 Aluminum Alloy",
+            author:"Anand Kumar S Nagaraju K.N., Sachin K., Sujay H., Sunil A.R., Siddesha H. S.",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S221478531830052X',
+          },
+          {
+  
+            title:"Fabrication and Mechanical Characterization of Bio-Composite Helmet",
+            author:"Girisha C. Bharath B., Chethan Kumar G., Shivanna G., Syed Sajjad Hussain, Chandrashekhar B., Sunil Raj B.A., Anand Kumar S.",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785318300592',
+          },
+          {
+  
+            title:"Fracture toughness and fatigue behavior of spider silk and S-glass epoxy composites: An FEM approach",
+            author:"Kumar R. K Archana T., Anand Kumar S., Elangovan R. R., Ram Mohan Y. S., Ravikumar Dumpala, Ratna Sunil B.",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785318300488',
+          },
+        ]
+      }, 
+      {
+        year:"2017",
+        detail:[
+          {
+  
+            title:"Effects of laser peening on fretting wear behaviour of alloy 718 fretted against two different counterbody materials",
+            author:"S Anand Kumar, R Sundar, S Ganesh Sundara Raman, R Gnanamoorthy, R Kaul, K Ranganathan, KS Bindra",
+            Publication:'Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology',
+            impactFactor:'2.0',
+            link:'https://journals.sagepub.com/doi/full/10.1177/1350650117692707',
+          },
+          {
+            title:"Microstructure, hardness and wear behavior of AZ31 Mg alloy – fly ash composites produced by friction stir processing",
+            author:"B. Ratna Sunil V.V. Kondaiah, P. Pavanteja, P. Afzal Khan, Anand Kumar S, Ravikumar Dumpala",
+            Publication:'Materials Today: Proceedings',
+            impactFactor:'24.2',
+            link:'https://www.sciencedirect.com/science/article/pii/S2214785317312452',
+          },
+          {
+            title:"A pragmatic approach and quantitative assessment of silt erosion characteristics of HVOF and HVAF processed WC-CoCr coatings and 16Cr5Ni steel for hydro turbine applications",
+            author:"Anand Kumar S Kumar R. K, Kamaraj M, Seetharamu S. R",
+            Publication:'Materials and Design',
+            impactFactor:'8.4',
+            link:'https://www.sciencedirect.com/science/article/pii/S0264127517306299',
+          },
+          {
+            title:"Effects of Laser Peening and Counterbody Material on Fretting Wear Behaviour of Alloy 718",
+            author:"Gnanamoorthy. S. Anand Kumar, Sundar, R., Ganesh Sundara Raman, S.",
+            Publication:'Journal of Engineering Tribology',
+            impactFactor:'',
+            link:'https://scholar.google.com/scholar?cluster=10271159640790363346&hl=en&oi=scholarr',
+          },
+
+        ]
+      }, 
+   {
+      year:"2016",
+      detail:[
+        {
+
+          title:"Effects of fiber surface modification on the friction coefficient of luffa fiber/polyester composites under dry sliding condition",
+          author:"G Kalusuraman, I Siva, JT Winowlin Jappes, S Anand Kumar",
+          Publication:'Journal of Polymer Engineering',
+          impactFactor:'2.0',
+          link:'https://www.degruyter.com/document/doi/10.1515/polyeng-2015-0316/html',
+        },
+        {
+
+          title:"Influence of SMAT Parameters on Microstructural and Mechanical Properties of Al-Mg-Si AA 6061 Alloy",
+          author:"T.S.N Anand Kumar, S., Satish Kumar P., Ganesh Sundara Raman, S. and Sankara Narayanan",
+          Publication:'Journal of Materials Engineering and Performance',
+          impactFactor:'2.3',
+          link:'https://link.springer.com/article/10.1007/s11665-017-2612-z',
+        },
+      ]
+    }, 
+    {
+      year:"2014",
+      detail:[
+        {
+
+          title:"Influence of Surface Mechanical Attrition Treatment Duration on Fatigue Lives of Ti- 6Al-4V",
+          author:"Anand Kumar, S., Ganesh Sundara Raman, S. and Sankara Narayanan, T.S.N.",
+          Publication:'Transactions of the Indian Institute of Metals',
+          impactFactor:'1.6',
+          link:'https://link.springer.com/article/10.1007/s12666-013-0322-2',
+        },
+        {
+          title:"Influence of laser peening on microstructure and fatigue lives of Ti–6Al–4V",
+          author:"K.S. Anand Kumar, S., Sundar, R., Ganesh Sundara Raman, S., Kumar, H., Gnanamoorthy, R., Kaul, R., Ranganathan, K., Oak, S.M., and Kukreja, L.M and Bindra",
+          Publication:'Transaction of Nonferrous Materials Society China',
+          impactFactor:'4.5',
+          link:'https://www.sciencedirect.com/science/article/pii/S100363261463449X',
+        },
+        {
+          title:"Performance of alumina coatings prepared by hard anodizing, micro arc oxidation and detonation spray processes on Al–Mg–Si alloy under fretting wear loading",
+          author:"R. Anand Kumar, S., Sritam Pradhan, Ganesh Sundara Raman, S. and Gnanamoorthy",
+          Publication:'Journal of Engineering Tribology',
+          impactFactor:'2.0',
+          link:'https://journals.sagepub.com/doi/full/10.1177/1350650113513756',
+        },
+      ]
+    }, 
+    {
+      year:"2013",
+      detail:[
+        {
+
+          title:"Ganesh Sundara Raman S, Sankara Narayanan TSN, Gnanamoorthy R. Influence of counterbody material on fretting wear behaviour of surface mechanical attrition treated Ti–6Al–4V",
+          author:"S Anand Kumar",
+          Publication:'Tribol Int',
+          link:'https://scholar.google.co.in/scholar?hl=en&as_sdt=0,5&cluster=153155312833998362',
+        },
+        {
+
+          title:"Fretting wear behaviour of 304 stainless steel fretted against different counterbody materials",
+          author:"R. Anand Kumar, S., Krishna Sai, S., Ganesh Sundara Raman, S. and Gnanamoorthy",
+          Publication:'Tribology - Materials, Surfaces and Interfaces',
+          impactFactor:'1.6',
+          link:'https://journals.sagepub.com/doi/full/10.1179/1751584X13Y.0000000041',
+        },
+        {
+
+          title:"Neutron transmission and capture measurements and analysis of Dy from 0.01 to 550 eV",
+          author:"R. Anand Kumar, S., Ganesh Sundara Raman, S., Sankara Narayanan, T.S.N. and Gnanamoorthy",
+          Publication:'Materials and Design',
+          impactFactor:'2.7',
+          link:'https://www.sciencedirect.com/science/article/pii/S0261306913001878',
+        },
+        {
+
+          title:"Influence of counterbody material on fretting wear behaviour of surface mechanical attrition treated Ti–6Al–4V",
+          author:"R. Anand Kumar, S., Ganesh Sundara Raman, S., Sankara Narayanan, T.S.N. and Gnanamoorthy",
+          Publication:'Tribology International',
+          impactFactor:'6.2',
+          link:'https://www.sciencedirect.com/science/article/pii/S0301679X12002708',
+        },
+      ]
+    }, 
+  ]
+  
+  return (
+   <>
+<Carousel/>
+<Publication publication={publication}/>
+{/* <Rpublication publication={publication}/> */}
+ 
+   </>
+  )
+}
     
  
