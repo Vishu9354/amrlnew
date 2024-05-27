@@ -24,14 +24,14 @@ export default function publication() {
        {
           title:"Design and performance of additively manufactured lightweight bionic hand",
           author:"Ruban Whenish, Maria Merin Antony, T Balaji, Arivazhagan Selvam, LS Ramprasath, Rajkumar Velu",
-          Publication:"AIP Publishing",
+          Publication:"AIP Conference Proceedings",
           impactFactor:'',
           link:'https://pubs.aip.org/aip/acp/article-abstract/2317/1/020028/1002086/Design-and-performance-of-additively-manufactured',
        },
        {
         title:"Additive processing of biopolymers for medical applications",
         author:"Rajkumar Velu, Dhileep Kumar Jayashankar, Karupppasamy Subburaj",
-        Publication:"Elsevier",
+        Publication:"Additive Manufacturing",
         impactFactor:'',
         link:'https://www.sciencedirect.com/science/article/abs/pii/B9780128184110000197',
        },
@@ -43,17 +43,19 @@ export default function publication() {
         {
           title:"A comprehensive review on printed electronics: a technology drift towards a sustainable future",
           author:"Sridhar Chandrasekaran, Arunkumar Jayakumar, Rajkumar Velu",
-          Publication:"MDPI",
+          Publication:"Nanomaterials",
           impactFactor:'',
           link:'https://www.mdpi.com/2079-4991/12/23/4251',
         },
+       
         {
-          title:"Perspective chapter: multi-material in 3D printing for engineering applications",
-          author:"Rajkumar Velu, R Sathishkumar, A Saiyathibrahim",
-          Publication:"IntechOpen",
-          impactFactor:'',
-          link:'https://books.google.co.in/books?hl=en&lr=&id=qyJ-EAAAQBAJ&oi=fnd&pg=PA117&dq=info:S3jONmIH_34J:scholar.google.com&ots=a7iJiFSFeV&sig=U2MzsPTmfDpQJNItvwOW0rf8vVE&redir_esc=y#v=onepage&q&f=false',
-        },
+            title:"Perspective chapter: multi-material in 3D printing for engineering applications",
+            author:"Rajkumar Velu, R Sathishkumar, A Saiyathibrahim",
+            Publication:"Advanced Additive Manufacturing",
+            impactFactor:'',
+            link:'https://books.google.co.in/books?hl=en&lr=&id=qyJ-EAAAQBAJ&oi=fnd&pg=PA117&dq=info:S3jONmIH_34J:scholar.google.com&ots=a7iJiFSFeV&sig=U2MzsPTmfDpQJNItvwOW0rf8vVE&redir_esc=y#v=onepage&q&f=false',
+         },
+        
      ]
    },
    {
@@ -62,35 +64,29 @@ export default function publication() {
       {
          title:"Effect of process parameters on polyamide-6 carbon fibre prepreg laminated by IR-assisted automated fibre placement",
          author:"Chadurvedi Venkatesan, Rajkumar Velu, Nahaad Vaheed, Felix Raspall, Tong-Earn Tay, Arlindo Silva",
-         Publication:"Springer London",
+         Publication:"The International Journal of Advanced Manufacturing Technology",
          impactFactor:'',
          link:'https://link.springer.com/article/10.1007/s00170-020-05230-z',
       },
-      {
-         title:"Perspective chapter: multi-material in 3D printing for engineering applications",
-         author:"Rajkumar Velu, R Sathishkumar, A Saiyathibrahim",
-         Publication:"IntechOpen",
-         impactFactor:'',
-         link:'https://books.google.co.in/books?hl=en&lr=&id=qyJ-EAAAQBAJ&oi=fnd&pg=PA117&dq=info:S3jONmIH_34J:scholar.google.com&ots=a7iJiFSFeV&sig=U2MzsPTmfDpQJNItvwOW0rf8vVE&redir_esc=y#v=onepage&q&f=false',
-      },
+      
       {
          title:"Preparation and evaluation of the tensile characteristics of carbon fiber rod reinforced 3D printed thermoplastic composites",
          author:"Arivazhagan Selvam, Suresh Mayilswamy, Ruban Whenish, Rajkumar Velu, Bharath Subramanian",
-         Publication:"MDPI",
+         Publication:"Journal of Composites Science",
          impactFactor:'',
          link:'https://www.mdpi.com/2504-477X/5/1/8',
       },
       {
          title:"Experimental investigation of robotic 3D printing of high-performance thermoplastics (PEEK): a critical perspective to support automated fibre placement process (vol 15, pg 613 …",
          author:"Rajkumar Velu, Nahaad Vaheed, Murali Krishnan Ramachandran, Felix Raspall",
-         Publication:"SPRINGER LONDON LTD",
+         Publication:"INTERNATIONAL JOURNAL OF ADVANCED MANUFACTURING TECHNOLOGY",
          impactFactor:'3.4',
          link:'https://scholar.google.com/scholar?cluster=12857389802277071488&hl=en&oi=scholarr',
       },
       {
          title:"Experimental investigation of robotic 3D printing of high-performance thermoplastics (PEEK): a critical perspective to support automated fibre placement process",
          author:"Rajkumar Velu, Nahaad Vaheed, Murali Krishnan Ramachandran, Felix Raspall",
-         Publication:"Springer London",
+         Publication:"The International Journal of Advanced Manufacturing Technology",
          impactFactor:'',
          link:'https://link.springer.com/article/10.1007/s00170-019-04623-z',
       },
@@ -109,7 +105,7 @@ export default function publication() {
       {
         title:"Selective laser sintering responses of keratin-based bio-polymer composites",
         author:"Sarat Singamneni, Rajkumar Velu, Malaya Prasad Behera, Sonya Scott, Peter Brorens, Duane Harland, Juliet Gerrard",
-        Publication:"Elsevier",
+        Publication:"Materials & Design",
         impactFactor:'8.4',
         link:'https://www.sciencedirect.com/science/article/pii/S0264127519305258',
       },
@@ -123,7 +119,7 @@ export default function publication() {
       {
         title:"3D printing technologies and composite materials for structural applications",
         author:"Rajkumar Velu, Felix Raspall, Sarat Singamneni",
-        Publication:"Woodhead Publishing",
+        Publication:"Green composites for automotive applications",
         impactFactor:'',
         link:'https://www.sciencedirect.com/science/article/abs/pii/B9780081021774000082',
       },
@@ -135,7 +131,7 @@ export default function publication() {
       {
          title:"Post-process composition and biological responses of laser sintered PMMA and β-TCP composites",
          author:"Rajkumar Velu, Banu Pradheepa Kamarajan, Muthusamy Ananthasubramanian, Truc Ngo, Sarat Singamneni",
-         Publication:"Cambridge University Press",
+         Publication:"Journal of Materials Research",
          impactFactor:'',
          link:'https://www.cambridge.org/core/journals/journal-of-materials-research/article/abs/postprocess-composition-and-biological-responses-of-laser-sintered-pmma-and-tcp-composites/0A0E5B5EB00E45FBC342570BB8AE7BDA',
       },
@@ -148,7 +144,7 @@ export default function publication() {
       {
          title:"Evaluation of the influences of process parameters while selective laser sintering PMMA powders",
          auther:"Rajkumar Velu, Sarat Singamneni",
-         Publication:"SAGE Publications",
+         Publication:"Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science",
          impactFactor:'2.0',
          link:'https://journals.sagepub.com/doi/full/10.1177/0954406214538012',
       },

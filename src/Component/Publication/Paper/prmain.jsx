@@ -14,33 +14,25 @@ export default function publication() {
         {
           title:"Laser powder bed fusion technique of hydrogen–fueled gas turbine: Role of advanced materials and its challenges",
           author:"Shreyas Nandakumar Harithsa, S Anand Kumar, Rajkumar Velu, BK Nagesha",
-          Publication:"Elsevier",
+          Publication:"Materials Today: Proceedings",
           impactFactor:'3.2',
           link:'https://www.sciencedirect.com/science/article/pii/S2214785323014359',
         },
+      
+      ]
+    },
+    {
+      year:"2022",
+      detail:[ 
         {
           title:"Design and optimization of a 3D printed prosthetic socket for transtibial amputees",
           author:"Piyush Rai, Venkatessan Jankiraman, Mohit Teacher, Rajkumar Velu, S Anand Kumar, Trevor Binedell, Karupppasamy Subburaj",
-          Publication:"Elsevier",
+          Publication:"Materials Today: Proceedings",
           impactFactor:'3.2',
           link:'https://www.sciencedirect.com/science/article/pii/S2214785322061818',
 
         },
-        {
-          title:"Name of Raj kumar Sir paper",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
-
-        },
-        {
-          title:"Name of Raj kumar Sir paper",
-          author:"Name of all the author",
-          Publication:"Name of Publication",
-          impactFactor:'Impact factor',
-          link:'#',
-        },
+       
       ]
       
     },
@@ -68,7 +60,7 @@ export default function publication() {
         {
           title:"Single crystal metal deposition using laser additive manufacturing technology for repair of aero-engine components",
           author:"V Rajkumar, BK Nagesha, Amit Kumar Tigga, Sanjay Barad, TN Suresh",
-          Publication:"Elsevier",
+          Publication:"Materials Today: Proceedings",
           impactFactor:'',
           link:'https://www.sciencedirect.com/science/article/pii/S2214785321011457',
 
@@ -84,14 +76,14 @@ export default function publication() {
         {
           title:"Fabrication of complex 3D composites by fusing automated fiber placement (AFP) and additive manufacturing (AM) technologies",
           author:"Felix Raspall, Rajkumar Velu, Nahaad Mohammed Vaheed",
-          Publication:"",
+          Publication:"Advanced Manufacturing: Polymer & Composites Science",
           impactFactor:'',
           link:'https://www.tandfonline.com/doi/full/10.1080/20550340.2018.1557397',
         },
         {
           title:"Toolpath strategy and generation for robotic fibre placement on curved surface",
           author:"Nahaad Vaheed, Felix Raspall, Rajkumar Velu, Chadurvedi Venkatesan",
-          Publication:"Engineers Australia",
+          Publication:"International Conference on Composite Materials (22nd: 2019: Melboune, VIC.)",
           impactFactor:'',
           link:'https://search.informit.org/doi/abs/10.3316/informit.888612103654483',
         },
@@ -112,7 +104,7 @@ export default function publication() {
         {
           title:"Investigation on the effect of flyash on tensile, flexural and impact strength of hybrid composite material",
           author:"M Venkatasudhahar, R Velu, K Logesh",
-          Publication:"",
+          Publication:"International Journal of Mechanical and Production Engineering Research and Development",
           impactFactor:'',
           link:'https://d1wqtxts1xzle7.cloudfront.net/57522934/13.IJMPERDAUG201813.-libre.pdf?1538980801=&response-content-disposition=inline%3B+filename%3DINVESTIGATION_ON_THE_EFFECT_OF_FLYASH_ON.pdf&Expires=1716789712&Signature=Nkpj4HA8whujtZzvDP3GaPHxStX1KQAVxxYkLAEQShB2igG8wn-eIM2H7QAOn~DAk7MbTmGc8vPX593XjtYf89nBSj~aGfB9mpbKxatZqxobzjEC85KLjF53YqO3KZzlEPnpw0X7m6nLdMF98DyYAN1nl6woiutndj3FYMru2shxDQgMUDaKbL8CUq113jbwvjXvYRoMkQA0r8jYDMU7BVunTlVgz8vJZzThaXCSXQugScwRE5fhE0xQxSrwNTPoWKYomaMMrjpczn6nn3ewJhTE0F4Z2jWPX8M5oh1ZsuXQQrXlMQIIWSfi-kFMDRP5-gLOKadgGOVcwHPiW7nY9A__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA',
         },
@@ -132,7 +124,7 @@ export default function publication() {
         {
           title:"Effect of surface modification and hybridization of coir fiber on mechanical properties of nylon/epoxy hybrid composites",
           auhtor:"M Venkatasudhahar, R Velu, K Logesh, R Ganesh",
-          Publication:"",
+          Publication:"Int. J. Mech. Eng. Technol",
           impactFactor:'',
           link:'https://sdbindex.com/documents/00000002/00000-47681.pdf',
         },
@@ -152,7 +144,7 @@ export default function publication() {
         {
           title:"Selective laser sintering of biocomposite materials",
           author:"R Velu, A Fernyhough, DA Smith, M Guen, S Singamneni",
-          Publication:"",
+          Publication:"Lasers Eng Old City Publ",
           impactFactor:'',
           link:'https://www.researchgate.net/profile/Rajkumar-Velu-2/publication/310512069_Selective_laser_sintering_of_biocomposite_materials/links/5a94cf120f7e9ba42970d931/Selective-laser-sintering-of-biocomposite-materials.pdf',
         }, 
@@ -165,7 +157,7 @@ export default function publication() {
         {
           title:"THERMAL ASPECTS OF SELECTIVE LASER SINTERING OF PMMA+ β-TCP COMPOSITES",
           author:"Rajkumar Velu, Sarat Singamneni",
-          Publication:"University of Austin, Texas",
+          Publication:"Solid Freeform Fabrication",
           impactFactor:'',
           link:'https://repositories.lib.utexas.edu/items/90b0bc16-724b-42ea-8f9f-88d0c8e52577',
         },
@@ -178,14 +170,14 @@ export default function publication() {
         {
           title:"Selective laser sintering of polymer biocomposites based on polymethyl methacrylate",
           author:"Rajkumar Velu, Sarat Singamneni",
-          Publication:"Cambridge University Press",
+          Publication:"Journal of Materials Research",
           impactFactor:'',
           link:'https://www.cambridge.org/core/journals/journal-of-materials-research/article/abs/selective-laser-sintering-of-polymer-biocomposites-based-on-polymethyl-methacrylate/CDCB02CA8538E86EB00AA292CA38E9FB',
         },
         {
           title:"A Review ofFinite Element Method in Selective Laser Sintering (SLS) Process",
           author:"Rajkumar Velu, Sarat Singamneni",
-          Publication:"",
+          Publication:"Dr. R. Rudramoorthy",
           impactFactor:'',
           link:'https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:CyUuP7lWuDwJ:scholar.google.com/',
         },
@@ -198,7 +190,7 @@ export default function publication() {
         {
           title:"FRICTION MEASUREMENT IN COLD FORMING USING TRIBO-TESTS",
           author:"R Velu, Moses Raja Cecil",
-          Publication:"",
+          Publication:"Journal of Manufacturing Engineering",
           impactFactor:'',
           link:'https://www.smenec.org/index.php/1/article/view/380',
         },
