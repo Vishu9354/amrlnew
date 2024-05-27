@@ -116,10 +116,10 @@ export default function pamain() {
       detail:[
         {
 
-          title:"",
-          author:"",
-          Publication:'',
-          link:'',
+          title:"Influence of Surface Mechanical Attrition Treatment on Fretting Wear Behavior of Ti-6Al-4V",
+          author:"R Anand Kumar, S., Ganesh Sundara Raman, S., Sankara Narayanan, T.S.N. and Gnanamoorthy",
+          Publication:'Advanced Materials Research',
+          link:'https://www.scientific.net/AMR.463-464.316',
         }
       ]
     }, 

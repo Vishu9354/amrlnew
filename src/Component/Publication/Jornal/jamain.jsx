@@ -577,6 +577,34 @@ export default function jamain() {
           link:'https://www.sciencedirect.com/science/article/pii/S0301679X12002708',
         },
       ]
+    },
+    {
+      year:"2012",
+      detail:[
+        {
+
+          title:"Fretting wear behaviour of surface mechanical attrition treated alloy 718",
+          author:"S Anand Kumar, S Ganesh Sundara Raman, TSN Sankara Narayanan, R Gnanamoorthy",
+          Publication:'Surface and Coatings Technology',
+          impactFactor:'5.4',
+          link:'https://www.sciencedirect.com/science/article/pii/S0257897212003799',
+        },
+        {
+
+          title:"Effect of Surface Mechanical Attrition Treatment on Fatigue Lives of Alloy 718",
+          author:"T.S.N Anand Kumar, S., Ganesh Sundara Raman, S. and Sankara Narayanan",
+          Publication:'Transactions of the Indian Institute of Metals',
+          impactFactor:'1.6',
+          link:'https://link.springer.com/article/10.1007/s12666-012-0154-5',
+        },
+        {
+          title:"Fretting Wear Behavior of Laser Peened Ti-6Al-4V",
+          author:"L.M. Anand Kumar, S., Sundar, R., Ganesh Sundara Raman, S., Kumar, H., Gnanamoorthy, R., Kaul, R., Ranganathan, K., Oak, S.M., and Kukreja",
+          Publication:'Tribology Transactions',
+          impactFactor:'2.1',
+          link:'https://www.tandfonline.com/doi/abs/10.1080/10402004.2012.686087',
+        },
+      ]
     }, 
   ]
   
@@ -589,5 +617,6 @@ export default function jamain() {
    </>
   )
 }
-    
+
+
  
