@@ -191,7 +191,32 @@ export default function publication() {
         },
       ]
     },
-    
+
+    {
+      year:"2012",
+      detail:[
+        {
+          title:"FRICTION MEASUREMENT IN COLD FORMING USING TRIBO-TESTS",
+          author:"R Velu, Moses Raja Cecil",
+          Publication:"",
+          impactFactor:'',
+          link:'https://www.smenec.org/index.php/1/article/view/380',
+        },
+      ]
+    },
+
+    {
+      year:"2024",
+      detail:[
+        {
+          title:"Experimental and Analytical Investigation on Fibre Integration with Polymer Matrix on 3d Printed Continuous Fibre-Reinforced Composites",
+          author:"Anand Sankar Manipuzha, RAJKUMAR VELU, Anandkumar Subramaniyan",
+          Publication:"",
+          impactFactor:'',
+          link:'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4709922',
+        },
+      ]
+    },
   ]
   return (
    <>

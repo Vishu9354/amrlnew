@@ -189,6 +189,30 @@ export default function publication() {
       },
     ]
   },
+  {
+    year:"2012",
+    detail:[
+    {
+      title:"Shape Memory Alloy Based Actively Tuned Undamped Mass Absorber",
+      author:"M Senthil Kumar V Rajkumar S Shyamkirthi",
+      Publication:"",
+      impactFactor:'',
+      link:'https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:jCJ1kr4DA8kJ:scholar.google.com/',
+    },
+   ]
+  },
+  {
+    year:"2011",
+    detail:[
+      {
+        title:"Experimental Studies on Dynamic Vibration Absorber using Shape Memory Alloy (NiTi) Springs",
+        author:"V. Raj Kumar M. B. Bharathi Raj Kumar M. Senthil Kumar",
+        Publication:"",
+        impactFactor:'',
+        link:'https://pubs.aip.org/aip/acp/article-abstract/1391/1/336/907081/Experimental-Studies-on-Dynamic-Vibration-Absorber',
+      },
+    ]
+  },
 
 
 
