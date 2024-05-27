@@ -100,7 +100,13 @@ export default function publication() {
           impactFactor:'',
           link:'https://www.sciencedirect.com/science/article/pii/S2214785322068377', 
         },
-        
+        {
+          title:"Densification behaviour of laser powder bed fusion processed Ti6Al4V: Effects of customized heat treatment and build direction",
+          author:"Akshay Pathania, Anand Kumar Subramaniyan, Nagesha Bommanahalli Kenchappa",
+          Publication:"Proceedings of the Institution of Mechanical Engineers, Part E: Journal of Process Mechanical Engineering",
+          impactFactor:'2.4',
+          link:'https://journals.sagepub.com/doi/full/10.1177/09544089231190483',
+      },
 
          
       ]
@@ -165,12 +171,45 @@ export default function publication() {
             impactFactor:'3',
             link:'https://www.sciencedirect.com/science/article/pii/S0167577X2101836X', 
           },
+          {
+
+            title:"Hybrid Surface Characterisation of Intra Thin-Walled Ti6Al4V Surfaces Produced by Laser Powder Bed Fusion Technology",
+            author:"Nagesha B K and Sanjay Barad Anand Kumar S, Ajay Kushwaha",
+            Publication:'Surface Topography: Metrology and Properties',
+            impactFactor:'2.7',
+            link:'https://iopscience.iop.org/article/10.1088/2051-672X/ac4a46/meta', 
+          }, 
+        ]
+  
+      },
+      {
+        year:"2021",
+        detail:[
+          {
+  
+            title:" Electropolishing of Inconel 718 manufactured by laser powder bed fusion: Effect of heat treatment on hardness, 3D surface topography and material ratio curve",
+            author:"Abhishek Shrivastava, S Anand Kumar, BK Nagesha, TN Suresh",
+            Publication:'Optics & Laser Technology',
+            link:'https://link.springer.com/chapter/10.1007/978-981-16-7377-1_2', 
+          },
+          {
+  
+            title:"Influence of post-processing techniques on the microstructure, properties and surface integrity of Alsingle bondSisingle bondMg alloy processed by laser powder bed fusion technique",
+            author:"Anand Kumar Subramaniyan, Anigani Sudarshan Reddy, Snehith Mathias, Abhishek Shrivastava, Prasad Raghupatruni",
+            Publication:'Surface and Coatings Technology',
+            impactFactor:'5.4',
+            link:'https://www.sciencedirect.com/journal/surface-and-coatings-technology', 
+          },
+          {
+  
+          },
+  
           
            
   
         ]
   
-      }
+      },
       
     ]
     
@@ -184,7 +223,10 @@ export default function publication() {
     )
   }
   
-
+      
+    
+    
+   
     
     
  

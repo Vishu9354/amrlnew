@@ -57,6 +57,12 @@ export default function publication() {
           link:'https://link.springer.com/book/10.1007/978-981-99-7100-8', 
         },
         {
+          title:"Geometrical Form Deviation and Defect Analysis of SLM Processed Slender Parts Using Computer Vision Methodology",
+          author:"Brahmansh Kaushik, S Anand Kumar, V Rajkumar",
+          Publication:"Advances in Additive Manufacturing and Metal Joining: Proceedings of AIMTDR 2021",
+          link:'https://link.springer.com/chapter/10.1007/978-981-19-7612-4_13',
+      },
+        {
           title:"Bio-inspired advancements in additive manufacturing",
           author:"Ruban Whenish, Selvam Arivazhagan, Rajkumar Velu, S Anand Kumar",
           Publication:'Advances in Additive Manufacturing',
@@ -89,7 +95,35 @@ export default function publication() {
         },    
       ]
 
-    }
+    },
+    {
+      year:"2021",
+      detail:[
+        {
+
+          title:" Additive manufacturing technologies for biomedical implants using functional biocomposites",
+          author:"Ruban Whenish, Rajkumar Velu, S Anand Kumar, LS Ramprasath",
+          Publication:'High-performance composite structures: Additive manufacturing and processing',
+          link:'https://link.springer.com/chapter/10.1007/978-981-16-7377-1_2', 
+        },
+        {
+
+          title:"",
+          author:"",
+          Publication:'',
+          impactFactor:'',
+          link:'', 
+        },
+        {
+
+        },
+
+        
+         
+
+      ]
+
+    },
     
   ]
   
