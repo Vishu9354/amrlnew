@@ -1,30 +1,77 @@
 .awardcontainer{
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 85%;
+    width: 92%;
     margin-left: 8%;
 }
-.awardbox{
-    /* border: 2px solid black; */
-    box-shadow: 5px 5px 2px rgba(0, 0,0, 0.147);
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    padding: 25px;
+.awardcard{
     margin: 25px;
+    /* margin-left: 25%;  */
 }
-.acontent{
-    padding: 25px;
-    width: 90%;
-    background-color: rgba(245, 245, 245, 0.636);
-    border: 1px solid black;
-    border-bottom: 2px solid blue;
 
+.awardcontainer .awardcard{
+    height:400px;
+    width:400px;
+    overflow: hidden;
+    transition: 0.5s;
 }
-.atitle{
-    font-size: 1.7rem;
+.awardcontainer img{
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s linear;
 }
-.adetail{
-    font-size: 1.4rem;
-    margin-top: 25px;
+.intro{
+    height: 400px;
+    width: 400px;
+    /* box-sizing: border-box; */
+    position: relative;
+    color: white;
+    bottom: 100px;
+    transition: ease-in-out 0.5s;
+}
+
+.awardcard .introofevent{
+    display: none;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 100;
+}
+
+.awardcard .showevent{
+    display: block;
+    animation: show 0.5s;
+}
+@keyframes show {
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.intro p{
+    visibility: hidden;
+    opacity: 0;
+   }
+   .intro i{
+       display: flex;
+       justify-content: center;
+       font-size: 50px;
+   }
+.awardcard:hover{
+    cursor: pointer; 
+}
+
+.awardcard:hover .intro{
+    /* height: 450px; */
+    bottom: 250px;
+    background-color: rgba(0, 0, 0, 0.278);
+    
+}
+.awardcard:hover p{
+    opacity: 1;
+    visibility: visible;
 }
